@@ -50,12 +50,12 @@ class FaceDetection(Thread):
                 ratio = len1/len2
                 try:
                     if self.left_right: 
-                        if ratio < 1.2 and self.faces.index(face) == 0:
+                        if ratio < self.ratio_limit and self.faces.index(face) == 0:
                             cv2.putText(frame, "Left Smiling", (50, 150), cv2.FONT_HERSHEY_PLAIN, 7, (0, 0, 255))
-                        elif ratio < 1.2 and self.faces.index(face) == 1:
+                        elif ratio < self.ratio_limit and self.faces.index(face) == 1:
                             cv2.putText(frame, "Right Smiling", (50, 250), cv2.FONT_HERSHEY_PLAIN, 7, (0, 0, 255))
                     else:
-                        if ratio < 1.2:
+                        if ratio < self.ratio_limit:
                             cv2.putText(frame, 'Face #{faceid} is Smiling'.format(self.faces.index(face)), (50, 150), cv2.FONT_HERSHEY_PLAIN, 7, (0, 0, 255))
                 except:
                     middle = frame[0]/2
