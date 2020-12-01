@@ -70,6 +70,9 @@ class FaceDetection(Thread):
             cv2.imshow('frame',frame)
             if cv2.waitKey(1) & 0xFF == ord('q'):
                 break
+        
+        cap.release()
+        cv2.destroyAllWindows()
 
 def main():
     f = FaceDetection(num_faces = 2, ratio = 1.2, left_right = True)
