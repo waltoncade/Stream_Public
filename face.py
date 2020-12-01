@@ -19,7 +19,7 @@ class FaceDetection(Thread):
         self.sort_faces()
         return [face.left() for face in faces]
     def sort_faces(self)-> list:
-        return self.faces.sort(key=lambda  x: x.left())
+        return self.faces.sort(key=lambda x: x.left())
 
     @staticmethod
     def midpoint(point1=int, point2=int) -> int:
@@ -48,10 +48,10 @@ class FaceDetection(Thread):
             self.faces = detector(gray)
             for face in self.sort_faces():
                 landmarks = predictor(gray, face)
-                len1 = face_contour(list(range(0,16)), landmarks)
+                len1 = FaceDetection.face_contour(list(range(0,16)), landmarks)
                 mouth = list(range(48,67))
                 mouth.append(60)
-                len2 = face_contour(mouth, landmarks)
+                len2 = FaceDetection.face_contour(mouth, landmarks)
                 ratio = len1/len2
                 try:
                     if self.left_right: 
