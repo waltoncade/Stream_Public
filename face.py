@@ -36,6 +36,11 @@ class FaceDetection(Thread):
 
 
     def run(self):
+        cap = cv2.VideoCapture(0)
+        blink_flag = 0
+
+        detector = dlib.get_frontal_face_detector()
+        predictor = dlib.shape_predictor("supportingFiles/shape_predictor_68_face_landmarks.dat")
         while(True):
             ret, frame = cap.read()
             gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
