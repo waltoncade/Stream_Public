@@ -1,0 +1,349 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 0530470310-SamacSys_Parts
+#
+DEF 0530470310-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "0530470310-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "SHDRV3W50P0_125_1X3_550X320X420P" 650 100 50 H I L CNN
+F3 "http://docs-emea.rs-online.com/webdocs/1362/0900766b81362bef.pdf" 650 0 50 H I L CNN
+F4 "CONN HEADER 3POS 1.25MM VERT TIN" 650 -100 50 H I L CNN "Description"
+F5 "Molex" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "0530470310" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "0530470310" 650 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/0530470310/molex" 650 -600 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# AO3414-SamacSys_Parts
+#
+DEF AO3414-SamacSys_Parts Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "AO3414-SamacSys_Parts" 450 50 50 H V L CNN
+F2 "SOT95P280X125-3N" 450 -50 50 H I L CNN
+F3 "https://static6.arrow.com/aropdfconversion/67ac6f06d2170690d71560ead25e52fb73b77ec0/ao3414.pdf" 450 -150 50 H I L CNN
+F4 "Trans MOSFET N-CH 20V 3A 3-Pin SOT-23" 450 -250 50 H I L CNN "Description"
+F5 "1.25" 450 -350 50 H I L CNN "Height"
+F6 "Alpha & Omega Semiconductors" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "AO3414" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "AO3414" 450 -650 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ao3414/alpha-and-omega-semiconductor" 450 -750 50 H I L CNN "Arrow Price/Stock"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# ECS-120-20-4-SamacSys_Parts
+#
+DEF ECS-120-20-4-SamacSys_Parts Y 0 30 Y Y 1 F N
+F0 "Y" 650 300 50 H V L CNN
+F1 "ECS-120-20-4-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "HC-49USX" 650 100 50 H I L CNN
+F3 "https://ecsxtal.com/store/pdf/hc_49us.pdf" 650 0 50 H I L CNN
+F4 "Crystals 12MHz 20pF HC-49US" 650 -100 50 H I L CNN "Description"
+F5 "ECS" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "ECS-120-20-4" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "520-HCU1200-20" 650 -700 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.com/Search/Refine.aspx?Keyword=520-HCU1200-20" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# FE1.1S-SamacSys_Parts
+#
+DEF FE1.1S-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "FE1.1S-SamacSys_Parts" 1150 200 50 H V L CNN
+F2 "SOP64P600X175-28N" 1150 100 50 H I L CNN
+F3 "https://cdn-shop.adafruit.com/product-files/2991/FE1.1s+Data+Sheet+(Rev.+1.0).pdf" 1150 0 50 H I L CNN
+F4 "USB 2.0 HIGH SPEED 4-PORT HUB CONTROLLER" 1150 -100 50 H I L CNN "Description"
+F5 "1.75" 1150 -200 50 H I L CNN "Height"
+F6 "JFD IC" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FE1.1S" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "FE1.1S" 1150 -500 50 H I L CNN "Arrow Part Number"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -1400 200 -1400 200 100 N
+X VSS 1 0 0 200 R 50 50 0 0 P
+X DM1 10 0 -900 200 R 50 50 0 0 P
+X DP1 11 0 -1000 200 R 50 50 0 0 P
+X VD18_O 12 0 -1100 200 R 50 50 0 0 P
+X VD33 13 0 -1200 200 R 50 50 0 0 P
+X REXT 14 0 -1300 200 R 50 50 0 0 P
+X DMU 15 1300 -1300 200 L 50 50 0 0 P
+X DPU 16 1300 -1200 200 L 50 50 0 0 P
+X XRSTJ 17 1300 -1100 200 L 50 50 0 0 P
+X VBUSM 18 1300 -1000 200 L 50 50 0 0 P
+X BUSJ 19 1300 -900 200 L 50 50 0 0 P
+X XOUT 2 0 -100 200 R 50 50 0 0 P
+X VDD5 20 1300 -800 200 L 50 50 0 0 P
+X VD33_O 21 1300 -700 200 L 50 50 0 0 P
+X DRV 22 1300 -600 200 L 50 50 0 0 P
+X LED1 23 1300 -500 200 L 50 50 0 0 P
+X LED2 24 1300 -400 200 L 50 50 0 0 P
+X PWRJ 25 1300 -300 200 L 50 50 0 0 P
+X OVCJ 26 1300 -200 200 L 50 50 0 0 P
+X TESTJ 27 1300 -100 200 L 50 50 0 0 P
+X VD18 28 1300 0 200 L 50 50 0 0 P
+X XIN 3 0 -200 200 R 50 50 0 0 P
+X DM4 4 0 -300 200 R 50 50 0 0 P
+X DP4 5 0 -400 200 R 50 50 0 0 P
+X DM3 6 0 -500 200 R 50 50 0 0 P
+X DP3 7 0 -600 200 R 50 50 0 0 P
+X DM2 8 0 -700 200 R 50 50 0 0 P
+X DP2 9 0 -800 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# GRM21BC81D106KE51L-SamacSys_Parts
+#
+DEF GRM21BC81D106KE51L-SamacSys_Parts C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM21BC81D106KE51L-SamacSys_Parts" 350 150 50 H V L CNN
+F2 "CAPC2012X145N" 350 50 50 H I L CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0805 10uF 20volts *Derate Voltage/Temp" 350 -150 50 H I L CNN "Description"
+F5 "1.45" 350 -250 50 H I L CNN "Height"
+F6 "Murata Electronics" 350 -350 50 H I L CNN "Manufacturer_Name"
+F7 "GRM21BC81D106KE51L" 350 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "GRM21BC81D106KE51L" 350 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/grm21bc81d106ke51l/murata-manufacturing" 350 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "81-GRM21BC81D106KE1L" 350 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM21BC81D106KE1L" 350 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 0 300 0 N
+P 2 0 1 6 280 100 280 -100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PJ-031DH-SamacSys_Parts
+#
+DEF PJ-031DH-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "PJ-031DH-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "PJ031DH" 650 100 50 H I L CNN
+F3 "https://www.cui.com/product/resource/pj-031dh.pdf" 650 0 50 H I L CNN
+F4 "DC Power Connectors Power Jacks" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "CUI Devices" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PJ-031DH" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "PJ-031DH" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/pj-031dh/cui-devices" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "490-PJ-031DH" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-031DH?qs=WyjlAZoYn52nDKNxzxC0%2FA%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 800 -100 200 L 50 50 0 0 P
+X 2 2 800 0 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# PJ-037A-SamacSys_Parts
+#
+DEF PJ-037A-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "PJ-037A-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "PJ037A" 650 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/670/pj-037a-1312287.pdf" 650 0 50 H I L CNN
+F4 "DC Power Connectors Power Jacks" 650 -100 50 H I L CNN "Description"
+F5 "11" 650 -200 50 H I L CNN "Height"
+F6 "CUI Devices" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PJ-037A" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "PJ-037A" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/pj-037a/cui-devices" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "490-PJ-037A" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-037A?qs=WyjlAZoYn53bdNRXfildEA%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# RK73B2ATTD221J-SamacSys_Parts
+#
+DEF RK73B2ATTD221J-SamacSys_Parts R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RK73B2ATTD221J-SamacSys_Parts" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/RK73B2ATTD221J.pdf" 550 -50 50 H I L CNN
+F4 "KOA Thick Film Surface Mount Resistor 0805 Case 220 +/-5% 0.25W +/-200ppm/C" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "KOA Speer" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RK73B2ATTD221J" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "RK73B2ATTD221J" 550 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/rk73b2attd221j/koa-speer-electronics" 550 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "660-RK73B2ATTD221J" 550 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=660-RK73B2ATTD221J" 550 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# RK73H2ATTD2701F-SamacSys_Parts
+#
+DEF RK73H2ATTD2701F-SamacSys_Parts R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RK73H2ATTD2701F-SamacSys_Parts" 550 150 50 H V L CNN
+F2 "RESC2012X60N" 550 50 50 H I L CNN
+F3 "http://www.koaspeer.com/catimages/Products/RK73H/RK73H.pdf" 550 -50 50 H I L CNN
+F4 "Resistor Thick Film 2.7K 1% SMD 0805" 550 -150 50 H I L CNN "Description"
+F5 "0.6" 550 -250 50 H I L CNN "Height"
+F6 "KOA Speer" 550 -350 50 H I L CNN "Manufacturer_Name"
+F7 "RK73H2ATTD2701F" 550 -450 50 H I L CNN "Manufacturer_Part_Number"
+F8 "RK73H2ATTD2701F" 550 -550 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/rk73h2attd2701f/koa-speer-electronics" 550 -650 50 H I L CNN "Arrow Price/Stock"
+F10 "660-RK73H2ATTD2701F" 550 -750 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.com/Search/Refine.aspx?Keyword=660-RK73H2ATTD2701F" 550 -850 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TL2201EEYA-SamacSys_Parts
+#
+DEF TL2201EEYA-SamacSys_Parts S 0 30 Y Y 1 F N
+F0 "S" 1050 300 50 H V L CNN
+F1 "TL2201EEYA-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "TL2201EEYA" 1050 100 50 H I L CNN
+F3 "https://www.e-switch.com/system/asset/product_line/data_sheet/61/TL2201.pdf" 1050 0 50 H I L CNN
+F4 "Tactile Switches DPDT .1A 30V" 1050 -100 50 H I L CNN "Description"
+F5 "14" 1050 -200 50 H I L CNN "Height"
+F6 "E-Switch" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "TL2201EEYA" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "612-TL2201EEYA" 1050 -700 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL2201EEYA?qs=YXf4ACKMM4x3Bw8ZH9o%2FjQ%3D%3D" 1050 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+X NC_1 1 0 0 200 R 50 50 0 0 P
+X COM_1 2 0 -100 200 R 50 50 0 0 P
+X NO_1 3 0 -200 200 R 50 50 0 0 P
+X NC_2 4 1200 0 200 L 50 50 0 0 P
+X COM_2 5 1200 -100 200 L 50 50 0 0 P
+X NO_2 6 1200 -200 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# TST-110-01-G-D-SamacSys_Parts
+#
+DEF TST-110-01-G-D-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "TST-110-01-G-D-SamacSys_Parts" 750 200 50 H V L CNN
+F2 "TST-110-XX-Y-D" 750 100 50 H I L CNN
+F3 "http://suddendocs.samtec.com/prints/tst-1xx-xx-x-x-xx-xx-mkt.pdf" 750 0 50 H I L CNN
+F4 "20 Position, Shrouded PCB Headers, 0.100&quot; pitch" 750 -100 50 H I L CNN "Description"
+F5 "SAMTEC" 750 -300 50 H I L CNN "Manufacturer_Name"
+F6 "TST-110-01-G-D" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "TST-110-01-G-D" 750 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/tst-110-01-g-d/samtec" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "200-TST11001GD" 750 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Samtec/TST-110-01-G-D?qs=rU5fayqh%252BE1iIX99OHEFCg%3D%3D" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -1000 200 -1000 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 10 10 900 -400 200 L 50 50 0 0 P
+X 11 11 0 -500 200 R 50 50 0 0 P
+X 12 12 900 -500 200 L 50 50 0 0 P
+X 13 13 0 -600 200 R 50 50 0 0 P
+X 14 14 900 -600 200 L 50 50 0 0 P
+X 15 15 0 -700 200 R 50 50 0 0 P
+X 16 16 900 -700 200 L 50 50 0 0 P
+X 17 17 0 -800 200 R 50 50 0 0 P
+X 18 18 900 -800 200 L 50 50 0 0 P
+X 19 19 0 -900 200 R 50 50 0 0 P
+X 2 2 900 0 200 L 50 50 0 0 P
+X 20 20 900 -900 200 L 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X 4 4 900 -100 200 L 50 50 0 0 P
+X 5 5 0 -200 200 R 50 50 0 0 P
+X 6 6 900 -200 200 L 50 50 0 0 P
+X 7 7 0 -300 200 R 50 50 0 0 P
+X 8 8 900 -300 200 L 50 50 0 0 P
+X 9 9 0 -400 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# USB-A1HSW6-SamacSys_Parts
+#
+DEF USB-A1HSW6-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "USB-A1HSW6-SamacSys_Parts" 650 200 50 H V L CNN
+F2 "USBA1HSW6" 650 100 50 H I L CNN
+F3 "http://www.on-shore.com/wp-content/uploads/2015/09/usb-a1hsxx.pdf" 650 0 50 H I L CNN
+F4 "USB - A Receptacle Connector 4 Position Through Hole, Right Angle" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "On-Shore Technology, Inc" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "USB-A1HSW6" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "USB-A1HSW6" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/usb-a1hsw6/on-shore-technology" 650 -600 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -400 200 -400 200 100 N
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 -200 200 L 50 50 0 0 P
+X 4 4 800 -300 200 L 50 50 0 0 P
+X 5 5 0 0 200 R 50 50 0 0 P
+X 6 6 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# VFHR1112H-3BY2A-TR-SamacSys_Parts
+#
+DEF VFHR1112H-3BY2A-TR-SamacSys_Parts LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "VFHR1112H-3BY2A-TR-SamacSys_Parts" 500 250 50 H V L BNN
+F2 "LEDC2012X90N" 500 150 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/1/VFHR1112H-3BY2A-TR.pdf" 500 50 50 H I L BNN
+F4 "Standard LEDs - SMD Surface Mount LED" 500 -50 50 H I L BNN "Description"
+F5 "0.9" 500 -150 50 H I L BNN "Height"
+F6 "Stanley Electric" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "VFHR1112H-3BY2A-TR" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "VFHR1112H-3BY2A-TR" 500 -450 50 H I L BNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/vfhr1112h-3by2a-tr/stanley-electric" 500 -550 50 H I L BNN "Arrow Price/Stock"
+F10 "327-VFHR1112H3BY2ATR" 500 -650 50 H I L BNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Stanley-Electric/VFHR1112H-3BY2A-TR?qs=byeeYqUIh0P97ifiMYV8SQ%3D%3D" 500 -750 50 H I L BNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+X K 1 0 0 100 R 50 50 0 0 P
+X A 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

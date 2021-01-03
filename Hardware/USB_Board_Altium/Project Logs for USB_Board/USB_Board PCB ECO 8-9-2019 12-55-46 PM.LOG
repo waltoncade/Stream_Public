@@ -1,0 +1,47 @@
+Removed Pin From Net: NetName=GND Pin=IC1-19
+Removed Pin From Net: NetName=VDD5 Pin=IN1-1
+Removed Pin From Net: NetName=VDD5 Pin=J1-1
+Removed Pin From Net: NetName=VDD5 Pin=J2-1
+Removed Pin From Net: NetName=VDD5 Pin=J3-1
+Removed Pin From Net: NetName=VDD5 Pin=J4-1
+Added Component: Designator=P1(PJ031DH)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.cui.com/product/resource/pj-031dh.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "7mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "CUI"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PJ-031DH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "490-PJ-031DH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=490-PJ-031DH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=S2(MHS122K)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/MHS122K.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "17mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Apem"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "MHS122K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "642-MHS122K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=642-MHS122K"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VDD5 Pin=S1-3
+Added Pin To Net: NetName=GND Pin=S2-1
+Added Pin To Net: NetName=VDD5 Pin=S2-2
+Added Pin To Net: NetName=BUSJ Pin=IC1-19
+Added Pin To Net: NetName=BUSJ Pin=S2-3
+Added Net: Name=BUSJ
+Added Pin To Net: NetName=BUSVCC Pin=IN1-1
+Added Pin To Net: NetName=BUSVCC Pin=S1-1
+Added Net: Name=BUSVCC
+Added Pin To Net: NetName=EXVCC Pin=S1-2
+Added Net: Name=EXVCC
+Added Pin To Net: NetName=VD19 Pin=J1-1
+Added Net: Name=VD19
+Added Pin To Net: NetName=VD23 Pin=J2-1
+Added Net: Name=VD23
+Added Pin To Net: NetName=VD24 Pin=J3-1
+Added Net: Name=VD24
+Added Pin To Net: NetName=VD25 Pin=J4-1
+Added Net: Name=VD25
+Added Member To Class: ClassName=USB_Board Member=Component P1 PJ-031DH
+Added Member To Class: ClassName=USB_Board Member=Component S2 MHS122K

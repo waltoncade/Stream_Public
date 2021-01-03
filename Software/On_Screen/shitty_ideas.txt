@@ -1,0 +1,15 @@
+agrodisiac : make a contraption that when reached a certain amount of channel points pours water on ur pc
+findingj : add a !darkmode command htat turns on dark mode so we can stop with these bright screens
+agrodisiac : when someone reaches a certain amount of channel points they can mess up ur keybinds
+agrodisiac : add LEDS to the room and according to whether your crewmate or imposter the lights turn red or cyan
+findingj : add a switch command for mods to switch between scenes
+reflectwin : project command to see what we are working on
+findingj : uptime command shows how long you've been streaming
+findingj : M&M shooter at them on chat command
+findingj : change zap level to random
+mcpickle242 : hourly poopoopeepee check
+reflectwin : send people to ad break
+mcpickle242 : add a button that says "Zap the ugly twin" that zaps one of you at random
+findingj : random option that runs a random command
+findingj : miracle berries (google it)
+kodbilen : Once Hype Train activated the shock begins. Each time hype train goes next level the shock level increases

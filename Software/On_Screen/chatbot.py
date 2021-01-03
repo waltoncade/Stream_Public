@@ -5,9 +5,11 @@ import socket
 import threading
 import datetime
 import access_codes
+import pandas as pd
 
 serversocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-serversocket.connect(('192.168.0.6', 3232))
+#serversocket.connect(('192.168.0.6', 3232))
+serversocket.connect(('192.168.1.195', 3232))
 
 class TwitchBot(irc.bot.SingleServerIRCBot):
     def __init__(self, username, client_id, token, channel):
@@ -16,6 +18,9 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
         self.channel = "#" + channel
         self.filepath = "C:/Git/Stream/Software/On_Screen/"
         self.zap_used = []
+        df = pd.read_csv(self.filepath + "commands.txt", sep=',\s')
+        dflist = df.values.tolist()
+        print(dflist)
 
         # Get the channel id, we will need this for v5 API calls
         url = "https://api.twitch.tv/kraken/users?login=" + channel
@@ -40,7 +45,6 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
         c.join(self.channel)
 
     def on_pubmsg(self, c, e):
-
         # If a chat message starts with an exclamation point, try to run it as a command
         if e.arguments[0][:1] == "!":
             cmd = e.arguments[0].split(" ")[0][1:]
@@ -52,6 +56,7 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
         cmd = cmd.lower()
         c = self.connection
         name = e.source.split("!")[0]
+        mod = e.tags[8]['value']
         split_message = e.arguments[0].split(" ")[1:]
         message = " ".join(split_message)
 
@@ -69,16 +74,12 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
             message = "COOKIE FOR {}".format(name)
             c.privmsg(self.channel, message)
             serversocket.send(b'cookie')
-        
-        elif cmd == "zap":
-            if (self.not_listed(name, self.zap_used) or name == 'boteymcbotface'):
-                self.zap_used.append(name)
-                message = "zapped the twins"
-                c.privmsg(self.channel, message)
-                serversocket.send(b'zap')
+
+        elif cmd == "mod":
+            if int(mod):
+                c.privmsg(self.channel, "You are a mod!")
             else:
-                message = "Only ONE ZAP 4 U"
-                c.privmsg(self.channel, message)
+                c.privmsg(self.channel, "You are not a mod!")
 
         elif cmd == "idea":
             try:
@@ -88,8 +89,17 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
                 c.privmsg(self.channel, "Invalid Suggestion, No Emojis")
 
         elif cmd == "help":
-            c.privmsg(self.channel, "!zap - zap the twins once per stream!cookie - treat yo-self, bottom left!idea - submit an idea")
+            c.privmsg(self.channel, "use dem channel points")
+
+        elif cmd == "channelpoints":
+            c.privmsg(self.channel, "use dem channel points below to do things to us, more coming soon!")
         
+        elif cmd == "project":
+            c.privmsg(self.channel, "beer feeder")
+
+        elif cmd == "discord":
+            c.privmsg(self.channel, "")
+
         # The command was not recognized
         else:
             c.privmsg(self.channel, "Did not understand command: " + cmd)
@@ -106,7 +116,7 @@ class TwitchBot(irc.bot.SingleServerIRCBot):
         f.close()
 
 def main():
-    client_id, token = access_codes.bot_codes()
+    client_id, token, secret = access_codes.bot_codes()
     username  = "BoteyMcBotFace"
     channel   = "reflectwin"
 

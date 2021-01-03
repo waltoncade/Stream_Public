@@ -1,0 +1,1 @@
+START /MIN run.bat

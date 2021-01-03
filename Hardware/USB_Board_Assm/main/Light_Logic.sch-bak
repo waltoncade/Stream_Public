@@ -1,0 +1,235 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	6500 3400 6050 3400
+Wire Wire Line
+	6500 3500 6050 3500
+Wire Wire Line
+	6050 3500 6050 3750
+Wire Wire Line
+	5050 3200 5250 3200
+Wire Wire Line
+	5750 4150 5550 4150
+Text HLabel 4350 3200 0    50   Input ~ 0
+LG
+Text HLabel 4850 4150 0    50   Input ~ 0
+LR
+Text HLabel 4350 3200 0    50   Input ~ 0
+LG
+Text HLabel 4850 4150 0    50   Input ~ 0
+LR
+Text HLabel 4350 3200 0    50   Input ~ 0
+LG
+Text HLabel 4850 4150 0    50   Input ~ 0
+LR
+Text HLabel 4350 3200 0    50   Input ~ 0
+LG
+Text HLabel 4850 4150 0    50   Input ~ 0
+LR
+Text HLabel 4350 3200 0    50   Input ~ 0
+LG
+Text HLabel 4850 4150 0    50   Input ~ 0
+LR
+Text HLabel 4350 3200 0    50   Input ~ 0
+LG
+Text HLabel 4850 4150 0    50   Input ~ 0
+LR
+$Comp
+L SamacSys_Parts:RK73B2ATTD221J R?
+U 1 1 5F8898C1
+P 4850 4150
+AR Path="/5F39AC8F/5F8898C1" Ref="R?"  Part="1" 
+AR Path="/5F877533/5F8898C1" Ref="R?"  Part="1" 
+AR Path="/5F8776AE/5F8898C1" Ref="R?"  Part="1" 
+AR Path="/5F877849/5F8898C1" Ref="R?"  Part="1" 
+AR Path="/5F3900B0/5F8898C1" Ref="R202"  Part="1" 
+AR Path="/5F895509/5F8898C1" Ref="R302"  Part="1" 
+AR Path="/5F89571F/5F8898C1" Ref="R402"  Part="1" 
+AR Path="/5F8959AC/5F8898C1" Ref="R502"  Part="1" 
+F 0 "R302" H 5200 4375 50  0000 C CNN
+F 1 "RK73B2ATTD221J" H 5200 4284 50  0000 C CNN
+F 2 "RESC2012X60N" H 5400 4200 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RK73B2ATTD221J.pdf" H 5400 4100 50  0001 L CNN
+F 4 "KOA Thick Film Surface Mount Resistor 0805 Case 220 +/-5% 0.25W +/-200ppm/C" H 5400 4000 50  0001 L CNN "Description"
+F 5 "0.6" H 5400 3900 50  0001 L CNN "Height"
+F 6 "KOA Speer" H 5400 3800 50  0001 L CNN "Manufacturer_Name"
+F 7 "RK73B2ATTD221J" H 5400 3700 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "RK73B2ATTD221J" H 5400 3600 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/rk73b2attd221j/koa-speer-electronics" H 5400 3500 50  0001 L CNN "Arrow Price/Stock"
+F 10 "660-RK73B2ATTD221J" H 5400 3400 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=660-RK73B2ATTD221J" H 5400 3300 50  0001 L CNN "Mouser Price/Stock"
+	1    4850 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:RK73B2ATTD221J R?
+U 1 1 5F88AB16
+P 4350 3200
+AR Path="/5F39AC8F/5F88AB16" Ref="R?"  Part="1" 
+AR Path="/5F877533/5F88AB16" Ref="R?"  Part="1" 
+AR Path="/5F8776AE/5F88AB16" Ref="R?"  Part="1" 
+AR Path="/5F877849/5F88AB16" Ref="R?"  Part="1" 
+AR Path="/5F3900B0/5F88AB16" Ref="R201"  Part="1" 
+AR Path="/5F895509/5F88AB16" Ref="R301"  Part="1" 
+AR Path="/5F89571F/5F88AB16" Ref="R401"  Part="1" 
+AR Path="/5F8959AC/5F88AB16" Ref="R501"  Part="1" 
+F 0 "R301" H 4700 3425 50  0000 C CNN
+F 1 "RK73B2ATTD221J" H 4700 3334 50  0000 C CNN
+F 2 "RESC2012X60N" H 4900 3250 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RK73B2ATTD221J.pdf" H 4900 3150 50  0001 L CNN
+F 4 "KOA Thick Film Surface Mount Resistor 0805 Case 220 +/-5% 0.25W +/-200ppm/C" H 4900 3050 50  0001 L CNN "Description"
+F 5 "0.6" H 4900 2950 50  0001 L CNN "Height"
+F 6 "KOA Speer" H 4900 2850 50  0001 L CNN "Manufacturer_Name"
+F 7 "RK73B2ATTD221J" H 4900 2750 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "RK73B2ATTD221J" H 4900 2650 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/rk73b2attd221j/koa-speer-electronics" H 4900 2550 50  0001 L CNN "Arrow Price/Stock"
+F 10 "660-RK73B2ATTD221J" H 4900 2450 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=660-RK73B2ATTD221J" H 4900 2350 50  0001 L CNN "Mouser Price/Stock"
+	1    4350 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0203
+U 1 1 5F398B10
+P 6500 3300
+AR Path="/5F3900B0/5F398B10" Ref="#PWR0203"  Part="1" 
+AR Path="/5F3953E5/5F398B10" Ref="#PWR?"  Part="1" 
+AR Path="/5F397BC2/5F398B10" Ref="#PWR?"  Part="1" 
+AR Path="/5F397C90/5F398B10" Ref="#PWR?"  Part="1" 
+AR Path="/5F895509/5F398B10" Ref="#PWR0303"  Part="1" 
+AR Path="/5F89571F/5F398B10" Ref="#PWR0403"  Part="1" 
+AR Path="/5F8959AC/5F398B10" Ref="#PWR0503"  Part="1" 
+F 0 "#PWR0503" H 6500 3150 50  0001 C CNN
+F 1 "+12V" H 6515 3473 50  0000 C CNN
+F 2 "" H 6500 3300 50  0001 C CNN
+F 3 "" H 6500 3300 50  0001 C CNN
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:0530470310 J?
+U 1 1 5F395DC6
+P 6500 3300
+AR Path="/5F395DC6" Ref="J?"  Part="1" 
+AR Path="/5F3900B0/5F395DC6" Ref="J201"  Part="1" 
+AR Path="/5F39531E/5F395DC6" Ref="J?"  Part="1" 
+AR Path="/5F39535F/5F395DC6" Ref="J?"  Part="1" 
+AR Path="/5F3953E5/5F395DC6" Ref="J?"  Part="1" 
+AR Path="/5F397BC2/5F395DC6" Ref="J?"  Part="1" 
+AR Path="/5F397C90/5F395DC6" Ref="J?"  Part="1" 
+AR Path="/5F895509/5F395DC6" Ref="J301"  Part="1" 
+AR Path="/5F89571F/5F395DC6" Ref="J401"  Part="1" 
+AR Path="/5F8959AC/5F395DC6" Ref="J501"  Part="1" 
+F 0 "J301" H 7128 3246 50  0000 L CNN
+F 1 "0530470310" H 7128 3155 50  0000 L CNN
+F 2 "SHDRV3W50P0_125_1X3_550X320X420P" H 7150 3400 50  0001 L CNN
+F 3 "http://docs-emea.rs-online.com/webdocs/1362/0900766b81362bef.pdf" H 7150 3300 50  0001 L CNN
+F 4 "CONN HEADER 3POS 1.25MM VERT TIN" H 7150 3200 50  0001 L CNN "Description"
+F 5 "" H 7150 3100 50  0001 L CNN "Height"
+F 6 "Molex" H 7150 3000 50  0001 L CNN "Manufacturer_Name"
+F 7 "0530470310" H 7150 2900 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "0530470310" H 7150 2800 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/0530470310/molex" H 7150 2700 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 7150 2600 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 7150 2500 50  0001 L CNN "Mouser Price/Stock"
+	1    6500 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:AO3414 Q?
+U 1 1 5F8E693B
+P 5750 4150
+AR Path="/5F8776AE/5F8E693B" Ref="Q?"  Part="1" 
+AR Path="/5F39AC8F/5F8E693B" Ref="Q?"  Part="1" 
+AR Path="/5F895509/5F8E693B" Ref="Q302"  Part="1" 
+AR Path="/5F89571F/5F8E693B" Ref="Q402"  Part="1" 
+AR Path="/5F3900B0/5F8E693B" Ref="Q202"  Part="1" 
+AR Path="/5F8959AC/5F8E693B" Ref="Q502"  Part="1" 
+F 0 "Q302" H 6180 4296 50  0000 L CNN
+F 1 "AO3414" H 6180 4205 50  0000 L CNN
+F 2 "SOT95P280X125-3N" H 6200 4100 50  0001 L CNN
+F 3 "https://static6.arrow.com/aropdfconversion/67ac6f06d2170690d71560ead25e52fb73b77ec0/ao3414.pdf" H 6200 4000 50  0001 L CNN
+F 4 "Trans MOSFET N-CH 20V 3A 3-Pin SOT-23" H 6200 3900 50  0001 L CNN "Description"
+F 5 "1.25" H 6200 3800 50  0001 L CNN "Height"
+F 6 "Alpha & Omega Semiconductors" H 6200 3700 50  0001 L CNN "Manufacturer_Name"
+F 7 "AO3414" H 6200 3600 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "AO3414" H 6200 3500 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ao3414/alpha-and-omega-semiconductor" H 6200 3400 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 6200 3300 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 6200 3200 50  0001 L CNN "Mouser Price/Stock"
+	1    5750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0502
+U 1 1 5F8E9D7F
+P 6050 4350
+AR Path="/5F8959AC/5F8E9D7F" Ref="#PWR0502"  Part="1" 
+AR Path="/5F895509/5F8E9D7F" Ref="#PWR0302"  Part="1" 
+AR Path="/5F89571F/5F8E9D7F" Ref="#PWR0402"  Part="1" 
+AR Path="/5F3900B0/5F8E9D7F" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0502" H 6050 4100 50  0001 C CNN
+F 1 "GND" H 6055 4177 50  0000 C CNN
+F 2 "" H 6050 4350 50  0001 C CNN
+F 3 "" H 6050 4350 50  0001 C CNN
+	1    6050 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SamacSys_Parts:AO3414 Q?
+U 1 1 5F8F022F
+P 5250 3200
+AR Path="/5F8776AE/5F8F022F" Ref="Q?"  Part="1" 
+AR Path="/5F39AC8F/5F8F022F" Ref="Q?"  Part="1" 
+AR Path="/5F895509/5F8F022F" Ref="Q301"  Part="1" 
+AR Path="/5F89571F/5F8F022F" Ref="Q401"  Part="1" 
+AR Path="/5F3900B0/5F8F022F" Ref="Q201"  Part="1" 
+AR Path="/5F8959AC/5F8F022F" Ref="Q501"  Part="1" 
+F 0 "Q301" H 5680 3346 50  0000 L CNN
+F 1 "AO3414" H 5680 3255 50  0000 L CNN
+F 2 "SOT95P280X125-3N" H 5700 3150 50  0001 L CNN
+F 3 "https://static6.arrow.com/aropdfconversion/67ac6f06d2170690d71560ead25e52fb73b77ec0/ao3414.pdf" H 5700 3050 50  0001 L CNN
+F 4 "Trans MOSFET N-CH 20V 3A 3-Pin SOT-23" H 5700 2950 50  0001 L CNN "Description"
+F 5 "1.25" H 5700 2850 50  0001 L CNN "Height"
+F 6 "Alpha & Omega Semiconductors" H 5700 2750 50  0001 L CNN "Manufacturer_Name"
+F 7 "AO3414" H 5700 2650 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "AO3414" H 5700 2550 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ao3414/alpha-and-omega-semiconductor" H 5700 2450 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 5700 2350 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 5700 2250 50  0001 L CNN "Mouser Price/Stock"
+	1    5250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0201
+U 1 1 5F8F39EF
+P 5550 3400
+AR Path="/5F3900B0/5F8F39EF" Ref="#PWR0201"  Part="1" 
+AR Path="/5F895509/5F8F39EF" Ref="#PWR0301"  Part="1" 
+AR Path="/5F89571F/5F8F39EF" Ref="#PWR0401"  Part="1" 
+AR Path="/5F8959AC/5F8F39EF" Ref="#PWR0501"  Part="1" 
+F 0 "#PWR0501" H 5550 3150 50  0001 C CNN
+F 1 "GND" H 5555 3227 50  0000 C CNN
+F 2 "" H 5550 3400 50  0001 C CNN
+F 3 "" H 5550 3400 50  0001 C CNN
+	1    5550 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2800 6050 2800
+Wire Wire Line
+	6050 2800 6050 3400
+$EndSCHEMATC
